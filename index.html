@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Toronto Cupcake</title>
+ 
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" /> 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #FFA1C3;">
+      <a class="navbar-brand" href="#" style="color: white;">
+        <img class="icon-nav" src="images/cupcake-svgrepo-com 1.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+        <span class="navbar-toggler-icon" ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav nav-justified">
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              OCCASIONS 
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">CORPORATE EVENTS</a>
+              <a class="dropdown-item" href="#">WEDDINGS</a>
+              <a class="dropdown-item" href="#">BIRTHDAYS</a>
+              <a class="dropdown-item" href="#">OTHER</a>
+            
+            </div>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CUPCAKES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">ALWAYS AVAILABLE</a>
+              <a class="dropdown-item" href="#">HOLIDAYS</a>
+              <a class="dropdown-item" href="#">SPECIAL EVENTS</a>
+              <a class="dropdown-item" href="#">CUSTOM</a>
+              
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              RESOURCES
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">FAQs</a>
+              <a class="dropdown-item" href="#">CONNECT</a>
+              <a class="dropdown-item" href="#">EVENT RESOURCES</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              CART<img class="icon-cart" src="images/shopping-cart.png">
+            </a>
+          </li>
+        </ul>
+      </div>  
+    </nav>
+
+    <!-- <h4>This is an example for flex-wrap:wrap</h4>
+    <div class="content">
+      <div class="red">1</div>
+      <div class="green">2</div>
+      <div class="blue">3</div>
+    </div> -->
+    <div class = "title">
+      <p class="title"> TORONTO CUPCAKE</p>
+      
+    </div>
+
+    <div class="big-div">
+     
+        <div class ="flex-child left-flex">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/image 4.png" alt="First slide" height="340" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/image 5.png" alt="Second slide" height="340px">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/image 6.png" alt="Third slide" height="340px">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> 
+
+       </div> 
+
+        <div class=" flex-child right-flex">
+          <div class="box">
+            <p class="text">
+              <h3 style="text-align: center; padding: 1%;">Welcome! </h3>
+              </br>
+              Thank you for stopping by Toronto Cupcake. 
+              Canada's and the GTA's favourite stop for that special treat. 
+              Order cupcakes online 24/7 for your special event. 
+              Delivery available most days between 8 and 6pm TO time.
+            </p>           
+          </div>
+          
+          <div class = "button-style">
+            <button type="button" class="btn btn-outline-primary">ORDER HERE</button>
+          </div>
+         
+          <div class="icon-block">
+            <img class="icon" src="images/mail-svgrepo-com 1.png">
+            <img class="icon" src="images/instagram-svgrepo-com 1.png">
+            <img class="icon" src="images/twitter-svgrepo-com 1.png">
+            <img class="icon" src="images/facebook-svgrepo-com 1.png">
+          </div>
+        </div>
+       
+    </div>
+
+    
+  </body>
+
+</html>
