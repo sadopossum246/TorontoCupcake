@@ -200,6 +200,7 @@ a:hover {
     width: 400px;
     margin: 0%;
     padding: 0%;
+    object-fit: cover;
 
   }
   .big-div{
